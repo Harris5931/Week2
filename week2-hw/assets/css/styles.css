@@ -1,0 +1,61 @@
+* {
+ box-sizing: border-box;   
+ padding: 0;
+ margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.nameplate,
+#nameplate section ul li {
+    padding: 20px;
+    font-family: 'Gill Sans', Arial, Helvetica, sans-serif;
+    background-color: rgb(65, 63, 63);
+    color: teal;
+    display: block;
+    font-size: 24px;
+}
+
+.nameplate section ul li {
+    
+    padding-top: 5px;
+    margin-right: 25px;
+    font-size: 20px;
+    margin-left: 25px;
+    float: right;
+    position: top;
+}
+
+#subtitle h2 {
+    display: right;
+
+}
+
+#history {
+    display: inline-block;
+    color: blueviolet;
+    font-size: 45px; 
+}
+
+#grind ul li {
+    float: right;
+    display: inline-flex;
+    margin: 15px;
+}
+
+#grind h2 {
+    display: left;
+    text-align: center;
+}
+
+#contact {
+    padding: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    display: 25px;
+    color: brown;
+    list-style: none;
+    margin-top: 300px; 
+}
